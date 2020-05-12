@@ -5,7 +5,7 @@ module.exports = {
   // retry: 2,
   sets: {
     desktop: {
-      files: `tests/${testFolder}` //запускаем тесты из папки
+      files: `tests/${testFolder}`
     }
   },
   browsers: {
