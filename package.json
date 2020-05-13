@@ -6,7 +6,9 @@
   "dependencies": {
     "hermione": "^3.3.1",
     "html-reporter": "^5.16.1",
-    "stat-reporter": "^1.0.0"
+    "node-gyp": "^6.1.0",
+    "stat-reporter": "^1.0.0",
+    "webdriverio": "^6.1.11"
   },
   "devDependencies": {},
   "scripts": {
