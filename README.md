@@ -1,24 +1,26 @@
 # sandbox_hermione
 ### sandbox for various checks
 
-##prerequisites  
+## prerequisites global
+### Install
+node-v10.16.0
+java
+jdk
+
 npm install -g node-gyp  
 npm config set msvs_version 2017 –global  
 npm install --global --production windows-build-tools  
 npm install -g webdriverio  
-npm i -g vvo/selenium-standalone  
+npm install selenium-standalone@latest -g  
 selenium-standalone install  
-npm i -g hermione  
-npm init --yes  
-npm i -save chai  
 
-### restore dependecies
+### restore dependecies in folder
 npm install
 
 ### start selenium
 selenium-standalone start
 
-### run tests
+### run tests in folder
 npx hermione
 
 
