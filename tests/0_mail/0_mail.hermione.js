@@ -15,7 +15,7 @@ function openPage(url) {
 }
 
 function setInput(selector, text) {
-  it ('setInput - selector: ' + selector + (text.length > 0 ? ': ' + text : ''), function (){
+  it ('setInput - selector: ' + selector , function (){
     if (text===undefined) text='undefined'
     let msg = 'Text mismatch - '
     return this.browser
